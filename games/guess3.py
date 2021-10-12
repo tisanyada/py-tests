@@ -15,7 +15,7 @@ while live > 0:
         # print ("Do you want to play again?  ")
         another_attempt = input("Do you want to play again [ y| n ]?")
         if another_attempt == 'y':
-            continue
+             continue
         else:
             print('tnx for playing')
             break
@@ -23,4 +23,3 @@ while live > 0:
         live -=1
 else:
     print('game over')
-1
