@@ -1,3 +1,5 @@
+import math
+
 print('hello world')
 
 
@@ -6,3 +8,6 @@ def sumNumbers():
 
 
 print(sumNumbers())
+
+math.factorial(5)
+
