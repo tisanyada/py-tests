@@ -9,15 +9,19 @@ def multiply(P, Q):
    return P * Q   
 def divide(P, Q):   
    # This function is used for dividing two numbers    
-   return P / Q    
+   return P / Q 
+def power(P, Q):   
+   # This function is used for dividing two numbers    
+   return P**Q 
 # Now we will take inputs from the user    
 print ("Please select the operation.")    
 print ("a. Add")    
 print ("b. Subtract")    
 print ("c. Multiply")    
-print ("d. Divide")    
+print ("d. Divide") 
+print ("e. Power") 
     
-choice = input("Please enter choice (a/ b/ c/ d): ")    
+choice = input("Please enter choice (a/ b/ c/ d/ e): ")    
     
 num_1 = int (input ("Please enter the first number: "))    
 num_2 = int (input ("Please enter the second number: "))    
@@ -31,6 +35,8 @@ elif choice == 'b':
 elif choice == 'c':    
    print (num1, " * ", num2, " = ", multiply(num1, num2))    
 elif choice == 'd':    
-   print (num_1, " / ", num_2, " = ", divide(num_1, num_2))    
+   print (num_1, " / ", num_2, " = ", divide(num_1, num_2))
+elif choice == 'e':    
+   print (num_1, "^", num_2, " = ", power(num_1, num_2))
 else:    
    print ("This is an invalid input")    
