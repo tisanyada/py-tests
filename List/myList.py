@@ -23,8 +23,6 @@ print(my_list[-1])
 
 print(my_list[-5])
 
-# List slicing in Python
-
 my_list = ['p','r','o','g','r','a','m','i','z']
 
 # includes element at index 2, 3, 4
